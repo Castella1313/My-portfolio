@@ -1,0 +1,36 @@
+.skills{
+display: flex;
+flex-direction: column;
+justify-content:center;
+padding-top:100px;
+padding-left:300px;
+padding-right:300px;
+background-color:#ffd3b4;
+text-align:center;
+
+}
+.skills h1{
+    color:#ce1212;
+    font-size:60px;
+}
+.skill{
+    background-color:#ffaaa7 ;
+    color:#ce1212;
+    margin:50px;
+    font-size: 50px;
+    padding:50px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 50px white;
+    
+}
+@media screen and (max-width:768px){
+    .skills{
+        padding:50px;
+    }
+    .skills h1{
+        font-size:0px;
+    }
+    .skill{
+        font-size:40px;
+    }
+}

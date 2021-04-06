@@ -1,0 +1,65 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5ecc2;
+    padding:40px;
+    width:100%;
+    
+}
+.card1{
+    background-color: pink;
+    margin-top:50px;
+    margin-left: 200px;
+    margin-right:200px;
+    border-radius: 20px;
+    padding:30px;
+    font-weight: bold;
+    color:#1f441e;
+    box-shadow: 5px 5px 50px black;
+}
+
+.instname{
+font-size:30px;
+font-weight: bold;
+color:#6b011f;
+padding:20px;
+
+}
+.field{
+    font-size:26px;
+    padding:5px 20px 5px 20px ;
+    
+}
+.stream{
+    font-size:18px;
+    padding:5px 20px 5px 20px ;
+}
+.cgpa{
+    font-size:18px;
+    padding:5px 20px 5px 20px ;
+}
+@media screen and (max-width:768px){
+    .education{
+        
+    }
+    .card1{
+
+        margin-top:50px;
+        margin-left: 50px;
+        margin-right:50px;
+        
+    }
+    .instname{
+        
+        font-size:26px;
+        }
+        .field{
+            font-size:20px;
+        }
+        .stream{
+            font-size:16px;
+        }
+        .cgpa{
+            font-size:16px;
+        }
+}
