@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+  }
 .skills{
 display: flex;
 flex-direction: column;
@@ -7,6 +13,7 @@ padding-left:300px;
 padding-right:300px;
 background-color:#ffd3b4;
 text-align:center;
+
 
 }
 .skills h1{

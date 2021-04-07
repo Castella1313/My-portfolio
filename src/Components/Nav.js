@@ -3,21 +3,23 @@ import {Link} from "react-router-dom"
 function Nav(){
     const style={
         color:"white",
-        textDecoration:"none"
+        textDecoration:"none",
+        margin:0
     };
     const [isActive, setActive] = useState("true");
     const onclickk = () =>{
         setActive(!isActive);
     }
 return(
-    <nav>
+    <div className="navv">
+        <nav>
         <div className="hamburger" onClick={onclickk}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+            <div className={isActive?"line" : "line trans1"}></div>
+            <div className={isActive?"line" : "none"}></div>
+            <div className={isActive?"line" : "line trans2"}></div>
         </div>
         <h1 className="logo">Simran Bhardwaj</h1>
-        <ul className={isActive ? "nav-items open" : "nav-items"}>
+        <ul className={isActive ? "none" : "nav-items"}>
             <Link style={style} to="/">
             <li>Home</li>
             </Link>
@@ -39,9 +41,9 @@ return(
             <Link style={style} to="/Contactme">
             <li>Contactme</li>
             </Link>
-            
         </ul>
     </nav>
+    </div>
 )
 }
 export default Nav

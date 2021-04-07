@@ -2,7 +2,6 @@ import React, {useEffect} from "react"
 import "./styles/organisations.css"
 import Aos from "aos"
 import "aos/dist/aos.css";
-
 const details = [{
         name:"CORE TEAM MEMBER AT GOOGLE DEVELOPER STUDENT CLUB ",
         date:"Web Developer coordinator | September 2020 - present",
