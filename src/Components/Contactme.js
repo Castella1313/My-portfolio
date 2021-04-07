@@ -24,7 +24,7 @@ function Contactme(){
                     <a href="https://www.linkedin.com/in/simran-bhardwaj-46927218b/"><img src={linkedin} alt="linkedin" /></a>
                 </div>
                 <div data-aos="fade-up" className="icons">
-                    <a href="whatsapp://send?abid=7505576197&text=Hey!%20I%20got%20your%20number%20from%20your%20portfolio"><img src={whatsapp} alt="whatsapp" /></a>
+                    <a href="https://wa.me/7505576197?text=Hey!!%20I%20got%20your%20number%20from%20your%20portfolio"><img src={whatsapp} alt="whatsapp" /></a>
                 </div>
                 <div data-aos="fade-up" className="icons">
                     <a href="https://github.com/Castella1313"><img src={github} alt="github" /></a>
