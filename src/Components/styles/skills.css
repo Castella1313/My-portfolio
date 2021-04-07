@@ -12,7 +12,7 @@ height:100%;
 
 
 }
-.skills h1{
+.title{
     color:#ce1212;
     font-size:60px;
 }
@@ -30,9 +30,7 @@ height:100%;
     .skills{
         padding:50px;
     }
-    .skills h1{
-        font-size:0px;
-    }
+    
     .skill{
         font-size:40px;
     }

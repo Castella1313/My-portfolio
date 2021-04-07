@@ -1,8 +1,5 @@
 import React, {useEffect} from "react"
-import cooking from "./Images/cooking/pana.png"
-import badminton from "./Images/table-tennis/rafiki.png"
-import songs from "./Images/music/rafiki.png"
-import painting from "./Images/blank-canvas/rafiki.png"
+
 import "./styles/hobbies.css"
 import Aos from "aos"
 import "aos/dist/aos.css";
@@ -14,7 +11,6 @@ function Hobbies(){
         <div className="hobbies">
             <h1 className="title">Hobbies</h1>
             <div className="hobby-name">
-                <div><img src={cooking} alt="cooking"></img></div>
                 <div className="right-col">
                     <h1>Cooking</h1>
                     <div>
@@ -27,7 +23,7 @@ function Hobbies(){
                 </div>
             </div>
             <div data-aos="fade-up" className="hobby-name">
-            <div><img src={badminton} alt="badminton"></img></div>
+           
                 <div className="right-col">
                     <h1>Playing Badminton</h1>
                     <div>
@@ -37,7 +33,7 @@ function Hobbies(){
                 </div>
             </div>
             <div data-aos="fade-up" className="hobby-name">
-            <div><img src={songs} alt="songs"></img></div>
+           
                 <div className="right-col">
                     <h1>Listening to Songs</h1>
                     <div>
@@ -48,7 +44,7 @@ function Hobbies(){
                 </div>
             </div>
             <div data-aos="fade-up" className="hobby-name">
-            <div><img src={painting} alt="painting"></img></div>
+            
                 <div className="right-col">
                     <h1>Painting</h1>
                     <div>
