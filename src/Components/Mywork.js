@@ -40,7 +40,7 @@ function Mywork(){
     },[])
     return(
         <div className="mywork">
-            <h1 className="title">My Work</h1>
+            <h1 className="title1">My Work</h1>
             <center>
             <div >
             {card}

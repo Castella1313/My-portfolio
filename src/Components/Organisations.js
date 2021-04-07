@@ -35,7 +35,7 @@ function Organisations(){
     },[])
     return(
         <div className="organisations">
-            <h1 className="title">Organisations</h1>
+            <h1 className="title1">Organisations</h1>
             <div >
             {card}
         </div>

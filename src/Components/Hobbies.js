@@ -9,7 +9,7 @@ function Hobbies(){
     },[])
     return(
         <div className="hobbies">
-            <h1 className="title">Hobbies</h1>
+            <h1 className="title1">Hobbies</h1>
             <div className="hobby-name">
                 <div className="right-col">
                     <h1>Cooking</h1>

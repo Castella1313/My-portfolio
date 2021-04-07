@@ -36,13 +36,14 @@ const card = details.map((data)=>{
 }
 
 )
+
 function Education(){
     useEffect(()=>{
         Aos.init({duration:2000});
     },[])
     return(
         <div className="education" >
-            <h1 className="title">Education</h1>
+            <h1 className="title1">Education</h1>
         <div >
             
             {card}

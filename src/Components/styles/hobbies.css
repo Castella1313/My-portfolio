@@ -3,6 +3,7 @@
     flex-direction: column;
     background-color:#ffd880 ;
     height:100%;
+    padding:50px;
 }
 .hobby-name{
     display: flex;

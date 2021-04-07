@@ -8,9 +8,7 @@
 }
 .card1{
     background-color: pink;
-    margin-top:50px;
-    margin-left: 200px;
-    margin-right:200px;
+    margin:50px;
     border-radius: 20px;
     padding:30px;
     font-weight: bold;
@@ -42,24 +40,20 @@ padding:20px;
     .education{
         
     }
-    .card1{
-
-        margin-top:50px;
-        margin-left: 50px;
-        margin-right:50px;
-        
+    .title{
+        font-size:28px;
     }
     .instname{
         
-        font-size:22px;
+        font-size:18px;
         }
         .field{
-            font-size:28px;
+            font-size:16px;
         }
         .stream{
-            font-size:16px;
+            font-size:14px;
         }
         .cgpa{
-            font-size:16px;
+            font-size:14px;
         }
 }

@@ -9,7 +9,7 @@ function Skills(){
     return(
        <center>
             <div className="skills">
-                <h1 className="title">Skills</h1>
+                <h1 className="title1">Skills</h1>
             <div data-aos="fade-up" className="skill">C</div>
             <div data-aos="fade-up" className="skill">C++</div>
             <div data-aos="fade-up" className="skill">Python</div>

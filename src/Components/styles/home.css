@@ -3,16 +3,14 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: #ffd880;
-    padding:20px;
+    padding:50px;
     height: 100%;
 
 }
+
 .intro{
     text-align:center;
     padding:100px;
-    border:2px dashed #6b011f;
-    border-radius: 50%;
-    box-shadow: 10px 10px 50px black;
     
     font-weight:bold;
 }

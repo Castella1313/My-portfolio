@@ -15,7 +15,7 @@ function Contactme(){
        <div className="contactme">
             
         <div  >
-        <h1 className="title">Contact me</h1>
+        <h1 className="title1">Contact me</h1>
                 <center>
                 <div data-aos="fade-up" className="icons">
                     <a href="mailto: simrangoyu@gmail.com"><img src={mail} alt="mail" /></a>
