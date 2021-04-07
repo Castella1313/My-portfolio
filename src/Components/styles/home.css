@@ -4,7 +4,8 @@
     justify-content: space-around;
     background-color: #ffd880;
     padding:20px;
-    height: 100vh;
+    height: 100%;
+
 }
 .intro{
     text-align:center;
@@ -33,7 +34,7 @@ text-align:center;
 .image{
     
     height:80vh;
-    width:30vw;
+    width:40vw;
     
 }
 @media screen and (max-width:768px){
@@ -64,7 +65,7 @@ text-align:center;
         .image{
     
             height:60vh;
-            width:20vw;
+            width:30vw;
             
         }
 
