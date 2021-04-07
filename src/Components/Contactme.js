@@ -10,11 +10,13 @@ function Contactme(){
     useEffect(()=>{
         Aos.init({duration:2000});
     },[])
+
     return(
-       <div>
-            <h1 className="title">Contact me</h1>
-        <div  className="contactme">
+       <div className="contactme">
             
+        <div  >
+        <h1 className="title">Contact me</h1>
+                <center>
                 <div data-aos="fade-up" className="icons">
                     <a href="mailto: simrangoyu@gmail.com"><img src={mail} alt="mail" /></a>
                 </div>
@@ -27,6 +29,7 @@ function Contactme(){
                 <div data-aos="fade-up" className="icons">
                     <a href="https://github.com/Castella1313"><img src={github} alt="github" /></a>
                 </div>
+                </center>
         </div>
        </div>
     )
