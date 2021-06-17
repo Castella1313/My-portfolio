@@ -19,8 +19,8 @@ const details = [{
 },
 {
     name:"My Resume",
-    detail:"using Canva",
-    link:"https://drive.google.com/file/d/1_bOlokEtNoffhhcuHnQ-M-XvrdvKDeXw/view?usp=sharing"
+    detail:"using resume template",
+    link:"https://drive.google.com/file/d/1t2Eoj02L8oCG_I1ZIB-0dHeDWnaco11W/view?usp=sharing"
 }
 ]
 const card = details.map((data)=>{
