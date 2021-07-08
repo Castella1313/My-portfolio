@@ -10,7 +10,7 @@ const details = [{
 {
     name:"Weather App",
     detail:"using HTML, CSS, NodeJs",
-    link:"#"
+    link:"https://github.com/Castella1313/Weather-App-Node-js-"
 },
 {
     name:"Graphic Designs",
